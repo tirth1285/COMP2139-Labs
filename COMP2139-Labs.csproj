@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>COMP2139_Labs</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Home\Project\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\Project\Index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Project\Create.cshtml" />
+      <AdditionalFiles Include="Views\Project\Index.cshtml" />
+    </ItemGroup>
+
+</Project>
